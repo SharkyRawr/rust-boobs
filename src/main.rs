@@ -149,7 +149,7 @@ fn build_ui(app: &gtk::Application) {
 
 fn main() {
     let uiapp = gtk::Application::new(
-        Some("pw.sharky.rust.test.gtk"),
+        Some("pw.sharky.rust.gtk.boobs"),
         gio::ApplicationFlags::FLAGS_NONE,
     )
     .expect("Application::new failed");
